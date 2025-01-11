@@ -7,9 +7,6 @@ from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 
 import spacy
-import string
-from nltk.corpus import stopwords
-
 # Load Spacy language model
 nlp = spacy.load("en_core_web_sm")
 
