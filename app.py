@@ -4,7 +4,6 @@ import string
 from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
-nltk.download('punk_tab')
 ps = PorterStemmer()
 
 import spacy
